@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      img {
+        margin: 6px;
+        border-radius: 4px;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+      }
+      .results {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px 3px 3px 2px rgba(0, 0, 0, 0.1);
+      }
+      body {
+        background-color: #fdfdfd;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+      }
+      p {
+        text-align: center;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="results">
+      <div id="word_result" class="result">
+        <p class="word">Random word Placeholder</p>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="word_btn">Get Random English Word</button>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
